@@ -79,7 +79,7 @@ stratum_server_tls_enabled = false
 [[mining.miner_plugin_config]]
 plugin_name = "cuckaroo_cpu_compat_29"
 [mining.miner_plugin_config.parameters]
-nthreads = 16
+nthreads = 32
 
 # As above, but for processors supporting avx2
 
